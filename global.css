@@ -1,0 +1,28 @@
+body {
+  background-color: #2e3440;
+  color: #d8dee9;
+  font-family: 'Verdana', sans-serif;
+}
+
+a {
+  color: #7f9fbf;
+}
+a:visited {
+  color: #b48ead;
+}
+
+h1 {
+  color: #88c0d0;
+}
+h2 {
+  color: #ebcb8b;
+  font-size: 20px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.bright {
+  color: #e5e9f0;
+}
