@@ -1,5 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
 body {
-  background-color: #2e3440;
+  background-color: #242933;
   color: #d8dee9;
   font-family: 'Verdana', sans-serif;
 }
@@ -17,6 +27,33 @@ h1 {
 h2 {
   color: #ebcb8b;
   font-size: 20px;
+}
+
+.container {
+  background-color: #2e3440;
+  max-width: 800px;
+  margin: 10px;
+  padding: 40px 20px;
+}
+
+.title {
+  margin: 0 0 24px;
+}
+
+.recipes {
+  margin: 0;
+  padding: 0;
+}
+
+.recipes li {
+  display: inline-block;
+  margin: 20px 10px;
+  a {
+    background-color: #3b4252;
+    border: 1px solid #242933;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
 }
 
 .centered {
